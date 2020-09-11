@@ -29,8 +29,6 @@ import AddEmployee from "./components/Employee/AddEmployee";
 import ListEmployeeComponent, {ListEmployee} from "./components/Employee/ListEmployee";
 import {UpdateEmployee} from "./components/Employee/UpdateEmployee";
 import ViewEmployee from "./components/Employee/ViewEmployee";
-import Calculator from "./components/Employee/Calculator";
-import Checkbox from "./components/Employee/CheckBox";
 import SearchEmployeeName from "./components/Employee/SearchEmployeeName";
 import SearchEmployeeDesignation from "./components/Employee/SearchEmployeeDesignation";
 
@@ -116,25 +114,6 @@ var routes = [
     component: ViewEmployee,
     layout: "/admin"
   }
-  ,{
-    path: "/cal",
-    name: "Check2",
-    rtlName: "ار تي ال",
-    icon: "tim-icons icon-money-coins",
-    component: Calculator,
-    layout: "/admin"
-  },
-  {
-    path: "/checkbox",
-    name: "checkbox",
-    rtlName: "ار تي ال",
-    icon: "tim-icons icon-chart-bar-32",
-    component: SearchEmployeeDesignation,
-    layout: "/admin"
-  }
-
-
-
 
 
 
